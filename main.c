@@ -1,5 +1,4 @@
 #include "globals.h"
-
 int main (int argc, char * argv[]) {
 
 	char pgm[20];
@@ -10,7 +9,6 @@ int main (int argc, char * argv[]) {
 		fprintf(stderr, "usage: %s <filename>\n", argv[0]);
 		exit(0);
 	}
-	
 
 	strcpy(pgm, argv[1]);
 
